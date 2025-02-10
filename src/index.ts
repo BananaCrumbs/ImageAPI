@@ -15,6 +15,7 @@ const app = new Elysia()
             info: {
                 title: "BananaCrumbs ImageAPI Documentation",
                 version: "1",
+                description: "Documentation for the ImageAPI service.  You can test any of the filters on https://imageapi.bananacrumbs.us/docs, and upload an image.  Currently, there is a rate limit of 10 requests per minute.  There are plans to add more endpoints in the future, but for now you can contribute to the repository on https://github.com/BananaCrumbs/ImageAPI to add more endpoints, or suggest them!",
             },
         },
         path: "/docs",
