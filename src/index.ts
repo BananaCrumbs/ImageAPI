@@ -1,7 +1,6 @@
 import Elysia from "elysia";
 import routes from "./routes";
 import swagger from "@elysiajs/swagger";
-import { rateLimit } from "elysia-rate-limit";
 
 const app = new Elysia()
     .use(swagger({
