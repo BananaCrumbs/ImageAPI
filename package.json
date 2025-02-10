@@ -1,0 +1,18 @@
+{
+  "name": "imageapi",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/imagemagick": "^0.0.35"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elysiajs/swagger": "^1.2.0",
+    "elysia": "^1.2.12",
+    "elysia-rate-limit": "^4.1.0",
+    "imagemagick": "^0.1.3"
+  }
+}
