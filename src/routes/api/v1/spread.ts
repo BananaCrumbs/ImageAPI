@@ -41,4 +41,8 @@ export default new Elysia()
         // @ts-ignore
         type: "multipart/form-data",
         tags: ["filter", "utility", "funny"],
+        detail: {
+            summary: "Spread",
+            description: "Spread the pixels around on the image."
+        }
     });

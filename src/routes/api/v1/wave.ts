@@ -48,4 +48,8 @@ export default new Elysia()
         // @ts-ignore
         type: "multipart/form-data",
         tags: ["filter", "utility"],
+        detail: {
+            summary: "Wave",
+            description: "Create waves on the edges of the image."
+        }
     });

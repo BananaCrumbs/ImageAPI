@@ -41,4 +41,8 @@ export default new Elysia()
         // @ts-ignore
         type: "multipart/form-data",
         tags: ["filter", "utility", "funny"],
+        detail: {
+            summary: "Swirl",
+            description: "Create a swirl in the center of the image."
+        },
     });
